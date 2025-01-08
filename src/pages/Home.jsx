@@ -1,5 +1,6 @@
 import hero from "/burger.jpg";
 import Button from "../components/Button.jsx";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -11,27 +12,27 @@ function Home() {
       <ul className="mx-3">
         <li>
           <Button props={"bg-orange-600 font-semibold mt-3"}>
-            <a> Oder now </a>
+            <Link to="#"> Oder now </Link>
           </Button>
         </li>
         <li>
           <Button props={"bg-orange-600/15 text-black mt-3"}>
-            <a> Menú </a>
+            <Link to="/menu"> Menú </Link>
           </Button>
         </li>
         <li>
           <Button props={"bg-orange-600/15 text-black mt-3"}>
-            <a> Deals </a>
+            <Link to="#"> Deals </Link>
           </Button>
         </li>
         <li>
           <Button props={"bg-orange-600/15 text-black mt-3"}>
-            <a> Acounts </a>
+            <Link to="#"> Acounts </Link>
           </Button>
         </li>
         <li>
           <Button props={"bg-orange-600/15 text-black mt-3"}>
-            <a> Find a Store </a>
+            <Link to="#"> Find a Store </Link>
           </Button>
         </li>
       </ul>
