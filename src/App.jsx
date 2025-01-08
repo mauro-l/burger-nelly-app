@@ -6,13 +6,20 @@ import Menu from "./pages/Menu.jsx";
 
 function App() {
   return (
-    <div className="flex justify-center items-center w-full">
-      <h1 className="text-5xl font-bold text-teal-500">
-        Hola nelly desde TailwindCss 
-      </h1>
-    </div>
+    <BrowserRouter>
+      <div className="flex flex-col justify-center items-center w-full">
+       
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
 
