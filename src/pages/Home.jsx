@@ -11,27 +11,27 @@ function Home() {
       
       <ul className="mx-3">
         <li>
-          <Button props={"bg-orange-600 font-semibold mt-3"}>
+          <Button props={"bg-orange-600 font-semibold mt-6"}>
             <Link to="#"> Oder now </Link>
           </Button>
         </li>
         <li>
-          <Button props={"bg-orange-600/15 text-black mt-3"}>
+          <Button props={"bg-orange-600/15 text-slate-950 mt-3"}>
             <Link to="/menu"> Menú </Link>
           </Button>
         </li>
         <li>
-          <Button props={"bg-orange-600/15 text-black mt-3"}>
+          <Button props={"bg-orange-600/15 text-slate-950 mt-3"}>
             <Link to="#"> Deals </Link>
           </Button>
         </li>
         <li>
-          <Button props={"bg-orange-600/15 text-black mt-3"}>
+          <Button props={"bg-orange-600/15 text-slate-950 mt-3"}>
             <Link to="#"> Acounts </Link>
           </Button>
         </li>
         <li>
-          <Button props={"bg-orange-600/15 text-black mt-3"}>
+          <Button props={"bg-orange-600/15 text-slate-950 mt-3"}>
             <Link to="#"> Find a Store </Link>
           </Button>
         </li>

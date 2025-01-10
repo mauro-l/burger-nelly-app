@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "nombre": "Hamburguesa Clásica",
+      "descripcion": "Hamburguesa de carne de res con lechuga, tomate, cebolla y chedar.",
+      "precio": 8.99,
+      "ingredientes": ["Carne de res", "Lechuga", "Tomate", "Cebolla", "Mayonesa", "Pan de hamburguesa"],
+      "tamanos": ["S", "M", "L"],
+      "disponible": true,
+      "imagen": "https://img.freepik.com/fotos-premium/deliciosa-hamburguesa-carne-lechuga-tomate-tocino-queso-cheddar_538646-6522.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Hamburguesa Doble Queso",
+      "descripcion": "Hamburguesa con doble carne y doble queso cheddar.",
+      "precio": 12.99,
+      "ingredientes": ["Carne de res", "Queso cheddar", "Pepinillos", "Mostaza", "Pan de hamburguesa"],
+      "tamanos": ["M", "L"],
+      "disponible": true,
+      "imagen": "https://www.elytienda.com/cdn/shop/products/hamburguesa_doble_carne.jpg?v=1706491389"
+    },
+    {
+      "id": 3,
+      "nombre": "Hamburguesa Vegana",
+      "descripcion": "Hamburguesa con un medallón vegano, lechuga, tomate y aguacate.",
+      "precio": 10.49,
+      "ingredientes": ["Medallón vegano", "Lechuga", "Tomate", "Aguacate", "Pan integral"],
+      "tamanos": ["S", "M", "L"],
+      "disponible": true,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_wE6pQeEa-0JHgv9mAqSXFLYngWN4bvDB_w&s"
+    },
+    {
+      "id": 4,
+      "nombre": "Hamburguesa BBQ",
+      "descripcion": "Hamburguesa de res con salsa BBQ, tocino y cebolla caramelizada.",
+      "precio": 11.99,
+      "ingredientes": ["Carne de res", "Salsa BBQ", "Tocino", "Cebolla caramelizada", "Pan brioche"],
+      "tamanos": ["M", "L"],
+      "disponible": true,
+      "imagen": "https://www.gastrolabweb.com/u/fotografias/m/2021/5/28/f638x638-13901_72068_4948.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Hamburguesa Picante",
+      "descripcion": "Hamburguesa de pollo con jalapeños, salsa picante y queso pepper jack.",
+      "precio": 9.99,
+      "ingredientes": ["Pollo", "Jalapeños", "Salsa picante", "Queso pepper jack", "Pan de hamburguesa"],
+      "tamanos": ["S", "M"],
+      "disponible": false,
+      "imagen": "https://img.freepik.com/fotos-premium/hamburguesa-picante-jalapenos-queso-pepper-jack_198067-2240.jpg"
+    }
+  ]
+  

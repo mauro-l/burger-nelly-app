@@ -8,7 +8,7 @@ import {
 
 function Footer() {
   return (
-    <div className="w-full text-center fixed bottom-0 border-t pt-1 border-gray-300 border-solid text-yellow-600/60">
+    <div className="w-full text-center fixed bottom-0 border-t pt-1 border-gray-300 border-solid text-amber-700/80">
       <ul className="flex justify-around items-center p-2">
         <li>
           <a href="#" className="flex flex-col justify-center items-center">
